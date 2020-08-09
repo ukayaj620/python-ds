@@ -1,8 +1,8 @@
-![logo](logo/logo.png)
+![logo](logo/logo.png) 
 
 # Python Data Structures and Algorithms
 
-This repository contains data structures and algorithms concepts and questions in Python.
+This repository contains data structures and algorithms concepts and questions useful for interviews in Python.
 
 ## :dart: Objective
 
@@ -10,7 +10,7 @@ The open source community has helped me a lot during my interview preparations a
 
 ## :file_folder: Structure of the repository
 
-As of now, the repository contains 3 main directories: **[Data Structures](data_structures)**, **[Algorithms](algorithms)** and **[Bookmarks](bookmarks)**.
+As of now, the repository contains 3 main directories: [**Bookmarks**](bookmarks), [**Data Structures**](data_structures) and [**Algorithms**](algorithms).
 
 ### Data Structures
 
@@ -30,10 +30,12 @@ Contains all data structure questions categorised into sub-directories like stac
 This directory contains various types of algorithm questions like Dynamic Programming, Sorting, Greedy, etc. The current structure of this directory is like -
 
 1. [Dynamic Programming](algorithms/dynamic_programming)
-2. [Math](algorithms/math)
-3. [Sorting](algorithms/sorting)
-4. [Greedy](algorithms/greedy)
+2. [Graphs](algorithms/graph)
+3. [Greedy](algorithms/greedy)
+4. [Math](algorithms/math)
 5. [Misc](algorithms/miscellaneous)
+6. [Sorting](algorithms/sorting)
+7. [Bit Manipulation](algorithms/bit_manipulation)
 
 ### Bookmarks
 
@@ -41,12 +43,12 @@ You can find useful links in this repository in the different markdown files. Be
 
 | Category | Link |
 | :-- | :--: |
-| Articles | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/articles.md) |
-| Books | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/books.md) |
-| Topics | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/topics.md) |
-| Tutorials | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/tutorials.md) |
-| Videos | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/videos.md) |
-| Misc. | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/misc.md) |
+| Articles | [Click Here](bookmarks/articles.md) |
+| Books | [Click Here](bookmarks/books.md) |
+| Topics | [Click Here](bookmarks/topics.md) |
+| Tutorials | [Click Here](bookmarks/tutorials.md) |
+| Videos | [Click Here](bookmarks/videos.md) |
+| Misc. | [Click Here](bookmarks/misc.md) |
 
 ## :clipboard: Things need to be done
 
@@ -54,8 +56,6 @@ As you can see, the repo is still in its infancy. Here are some key things in th
 
 1. Queue questions
 2. Algorithms
-    2.1. Dynamic Programming
-    2.2. Greedy
 3. More questions in data structures, especially for graph, circular linked list, tries, heaps and hash.
 
 ## :raised_hand: Contributing
@@ -65,7 +65,6 @@ Feel free to raise new issues, file new PRs and star and fork this repo! :wink:
 
 To follow the guidelines, refer to [Contributing.md](CONTRIBUTING.md)
 
-
 ## :page_facing_up: License
 
-MIT @ Prabhu Pant
+[MIT @ Prabhu Pant](LICENSE)

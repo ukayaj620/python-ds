@@ -1,23 +1,18 @@
-'''
-We are given two sequences and we
-need to find the length of the
-longest common subsequence
-'''
+def lcs(s1, s2):
+    cols = len(s1) + 1
+    rows = len(s2) + 1
 
+    t = [[0 for i in range(cols)] for i in range(rows)]
 
-def lcs(S1, S2):
-    m = len(S1)
-    n = len(S2)
+    max_length = 0
 
-    LCS = [[-1]*(n + 1) for i in range(m + 1)]
-
-    for i in range(m + 1):
-        for j in range(n + 1):
-            if i == 0 or j == 0:
-                LCS[i][j] = 0
-            elif S1[i-1] == S2[j-1]:
-                LCS[i][j] = LCS[i-1][j-1]+1
+    for i in range(1, rows):
+        for j in range(1, cols):
+            if s2[i-1] == s1[j-1]:
+                t[i][j] = 1 + t[i-1][j-1]
             else:
-                LCS[i][j] = max(LCS[i-1][j], LCS[i][j-1])
+                t[i][j] = max(t[i-1][j], t[i][j-1])
 
-    return LCS[m][n]
+            max_length = max(max_length, t[i][j])
+
+    return max_length
